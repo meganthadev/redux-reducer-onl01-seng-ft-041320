@@ -18,7 +18,6 @@ export function manageFriends(state, action){
         friends: [...friends.slice(0,i), ...friends.slice(i+1)]
       }
       
-
     default:
       return state;
   }
