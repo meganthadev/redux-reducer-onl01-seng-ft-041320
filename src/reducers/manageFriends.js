@@ -12,5 +12,6 @@ export function manageFriends(state, action){
         case 'REMOVE_FRIEND':
       friends = state.friends
       
+      
   }
 }
