@@ -12,6 +12,8 @@ export function manageFriends(state, action){
         case 'REMOVE_FRIEND':
       friends = state.friends
       
-      
+       let i = friends.findIndex(friend => friend.id === action.id)
+       
+       
   }
 }
