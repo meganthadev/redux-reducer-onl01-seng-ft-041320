@@ -3,6 +3,7 @@ export function manageFriends(state, action){
   switch(action.type) {
     case 'ADD_FRIEND':
       friends = state.friends
-      
+      let newFriend = action.friend
+      let newFriends = [...friends, newFriend]
   }
 }
