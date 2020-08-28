@@ -5,5 +5,9 @@ export function manageFriends(state, action){
       friends = state.friends
       let newFriend = action.friend
       let newFriends = [...friends, newFriend]
+      
+      return {...state, 
+        friends: newFriends}
+        
   }
 }
