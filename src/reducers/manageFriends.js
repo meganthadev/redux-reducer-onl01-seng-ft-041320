@@ -9,6 +9,8 @@ export function manageFriends(state, action){
       return {...state, 
         friends: newFriends}
         
-        
+        case 'REMOVE_FRIEND':
+      friends = state.friends
+      
   }
 }
