@@ -9,5 +9,6 @@ export function manageFriends(state, action){
       return {...state, 
         friends: newFriends}
         
+        
   }
 }
